@@ -4,4 +4,4 @@
 <h4>Features -  </h4> <ul> <li>Modern Todo app facilities inc Drag & Drop </li> <li>React toastify</li> <li>React loader</li> <li>Conditional rendering</li></ul>
 
 
-<h4>Implemented Tech -  <ul> <li>Tailwind css</li> <li>React</li> <li>React DND & tostify & vite</li> <li>html css......</li>
+<h4>Implemented Tech -  </h4> <ul> <li>Tailwind css</li> <li>React</li> <li>React DND & tostify & vite</li> <li>html css......</li>
