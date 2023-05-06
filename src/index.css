@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
+form input[type=text]:focus {
+  outline: none;
+  border: 1px solid #CA8A04;
+}
+
+form input[type=text]:focus+.btn-default {
+  border: 1px solid #CA8A04;
+  background-color: #CA8A04;
+  color: #fff;
+}
+
+.task-count {
+  transition: transform 0.5s ease;
+}
+
+.increase {
+  transform: translateY(-20px);
+}
+
+.decrease {
+  transform: translateY(20px);
+}
+
+.display {
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .1s;
+}
+
+.hide {
+  top: 150%;
+  transition: .6s;
+}
+
+.show {
+  top: -100%;
+}
+
+.flip-on-hover.active {
+  animation: example .5s .5s ease-in-out
+}
+
+@keyframes example {
+  from {
+    transform: scaleY(-1);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
